@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    color: rgb(205 92 92);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 0.4);
+    padding: 3px 10px;
+    cursor: pointer;
+} 
+
+.countMinus {
+    width: 150px;
+    height: 150px;
+    font-size: 48px;
+}
+
+.countPlus {
+    width: 150px;
+    height: 150px;
+    font-size: 48px;
+}
